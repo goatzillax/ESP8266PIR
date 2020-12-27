@@ -16,3 +16,10 @@ This will require some hardware modifications; the examples I've found online ra
 Mostly you have to send a rising edge to the RST pin in order to wake the ESP8266 from deep sleep.
 
 And you know, if another pulse came in while you were in the middle of processing the previous event, it would be neat if it didn't wreck your shit.
+
+
+References:
+* https://github.com/wemos/WEMOS_SHT3x_Arduino_Library
+* https://github.com/electronicsguy/ESP8266/tree/master/HTTPSRedirect
+* https://github.com/StorageB/Google-Sheets-Logging
+* https://github.com/robjen/GFX_fonts
